@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ } 
+ 
+/* NAVBAR */
+
+.nav-bar {
+  height: 60px;
+  background-color: #333333;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+}
+.nav-bar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 22px 50px;
+}
+
+.logo {
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+}
+
+.btn {
+  background-color: #892cdc;
+  padding: 11px 25px;
+  border-radius: 40px;
+}
+
+/* HERO */
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(#40ed00, #ffffff50), url(https://assets-global.website-files.com/5a10aaa4d85f4b0001a53297/5dee93ce54c6bb0b41f4b26c_green-aventador-compressed.jpeg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; 
+    
+}
+
+.hero-content {
+ 
+ width: 75%;
+ margin: 0 auto;
+ text-align: center;
+  height: 60vh;
+  postion: relative;
+  top: 30%;
+}
+
+.hero-content h1 {
+  font-size: 100px;
+}
+
+.hero-content p {
+  font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.hero-content hr {
+  width: 60%;
+  margin: 0 auto;
+  height: 4px;
+  border-color: #ffc85c;
+  background-color: #ffc85c;
+}
+
+.container {
+  width: 70%;
+   margin: 100px auto;
+}
+
+
+.container 
+
+.container p {
+  margin-top: 20px;
+  line-height: 40px;
+  text-indent: 50px;
+}
+
+footer {
+  text-align: center;
+  margin: 100px auto 50px;
+}
+
