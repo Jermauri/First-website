@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Website </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="nav-bar">
+    <ul>
+      <li class="logo"><a href="#">Jer'mauri Richardson</a></li>
+      <li><a href="#">Home</a> 
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a class="btn"href="#">Hire Me!</a></li>
+    </ul>
+  </div>
+   <div class="hero">
+     <div class="image">
+       <img src=https://2p2bboli8d61fqhjiqzb8p1a-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/mclaren-p1-mso-060415-1.jpg>
+       <img src="https://cdnb.artstation.com/p/assets/images/images/020/102/691/large/rostislav-prokop-helcat7.jpg?1566378427">
+       <img src="https://cdn.motor1.com/images/mgl/wnbnE/s3/bugatti-divo-liveries.jpg">
+       <div>
+    
+      <footer><p> My  Gallery Copyright 2021 Jer'mauri Richardson</p></footer>
+  </div>
+  </body>
+</html
+  
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ } 
+ 
+/* NAVBAR */
+
+.nav-bar {
+  height: 60px;
+  background-color: #333333;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+}
+.nav-bar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 22px 50px;
+}
+
+.logo {
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+}
+
+.btn {
+  background-color: #892cdc;
+  padding: 11px 25px;
+  border-radius: 40px;
+}
+
+/* HERO */
+
+.hero {
+  height: 100vh;
+  background: red;
+ 
+  
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; 
+    
+}
+
+.hero-content {
+ 
+ width: 75%;
+ margin: 0 auto;
+ text-align: center;
+  height: 60vh;
+  postion: relative;
+  top: 30%;
+}
+
+.hero-content h1 {
+  font-size: 100px;
+}
+
+.hero-content p {
+  font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.hero-content hr {
+  width: 60%;
+  margin: 0 auto;
+  height: 4px;
+  border-color: #ffc85c;
+  background-color: #ffc85c;
+}
+
+.container {
+  width: 70%;
+   margin: 100px auto;
+}
+
+
+.container 
+
+.container p {
+  margin-top: 20px;
+  line-height: 40px;
+  text-indent: 50px;
+}
+
+footer {
+  text-align: center;
+  margin: 100px auto 50px;
+}
+img {
+  height: 450px;
+  width: 33%;
+  object-fit: cover;
+}
+
+.hover:hover {
+  transform: scale(1.3);
+  transition: all .5s;
+  border-radius: 50px;
+  margin: 10px;
+  background-color: green;
+  width: 350px;
+  height: 100px;
+}
