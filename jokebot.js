@@ -1,8 +1,8 @@
 var guess;
 
-var jokes = ["Why do a fly always bzzzzzz to people?", "How do fireflise start a race?", "If there are 5 flies in the kitchen how do you know which one is the Football player?", "What is the difference between a bird and a fly?"]
+var jokes = ["What did the receiver say to the football?", " Why was Cinderella such a poor football player?", "What happens to football players who go blind?", "Which football player wears the biggest helmet?"]
  
-var answers = ["They want to bezzzz in your business", "Ready Set Glow", "The one thats is in the Sugar Bowl" , "A bird can fly and a fly can't bird"]
+var answers = ["Catch you later.", "Her coach was a pumpkin.", "They become referees." , "The one with the biggest head."]
 // alert(jokes[0]);
 
 
